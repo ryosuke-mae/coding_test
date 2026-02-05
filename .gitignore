@@ -1,0 +1,10 @@
+# Pythonのキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境設定やエディタの設定フォルダ
+.vscode/
+.idea/
+env/
+venv/
