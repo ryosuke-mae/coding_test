@@ -30,7 +30,10 @@ def main():
     L = list(map(int, input().split()))
     
     def can_make(length):
-        if sum(L[i] // length for i in range(N)) >= K or length == 0:
+        if length == 0:
+            return True
+        
+        if sum(L[i] // length for i in range(N)) >= K :
             return True
         else:
             return False
